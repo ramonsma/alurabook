@@ -1,0 +1,53 @@
+hr {
+    margin: 0;
+}
+.grupo__alura {
+    padding: 1.5em;
+}
+
+.footer__categorias {
+    display: none;
+}
+@media screen and (min-width: 1024px) {
+    .footer {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .grupo__alura{
+        font-size: 24px;
+    }
+    
+    .footer__categorias{
+        display: block;
+        padding: 1.5em 0;
+    }
+    .footer__categorias-titulo {
+        font-size: 14px;
+        color: var(--cinza);
+        padding: 1em;
+    }
+
+    .footer__item {
+        display: flex;
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    .footer__item-texto {
+        text-decoration: none;
+        padding: 0.3em;
+        font-size: 14px;
+        color: var(--cinza-escuro);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .footer {
+        padding: 3em 0;
+    }
+    .footer__categorias {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em;
+    }
+}
